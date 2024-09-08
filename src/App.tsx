@@ -15,8 +15,8 @@ function App() {
             const caller = apiClient.catalogueApi;
             const query = FAQ;
             const response = await caller(query, {
-                language: "en",
-                path: "/apps/customer-service/frequently-asked-questions",
+                language: "no",
+                path: "/apper/kundeservice/ofte-stilte-sporsmal",
             });
             setFaq(response.catalogue);
         })();
@@ -25,8 +25,8 @@ function App() {
             const caller = apiClient.catalogueApi;
             const query = CONTACTS;
             const response = await caller(query, {
-                language: "en",
-                path: "/sites/plantagencom/contact-us",
+                language: "no",
+                path: "/sites/plantagencom/kontakt-oss",
             });
             setContacts(response.catalogue);
         })();

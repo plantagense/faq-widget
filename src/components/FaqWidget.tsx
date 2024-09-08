@@ -25,7 +25,7 @@ export default function FaqWidget({ faq, contacts }: FaqWidgetProps) {
                             className="w-6 transition-all duration-300 group-hover:w-12 group-hover:translate-y-20"
                         />
                         <span className="absolute left-1/2 top-0 w-32 -translate-x-1/2 translate-y-3.5 transform text-sm text-white opacity-0 transition-all duration-300 group-hover:w-40 group-hover:opacity-100">
-                            Need help?
+                            Trenger hjelp?
                         </span>
                     </button>
                 </SheetTrigger>
