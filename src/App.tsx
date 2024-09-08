@@ -15,8 +15,8 @@ function App() {
             const caller = apiClient.catalogueApi;
             const query = FAQ;
             const response = await caller(query, {
-                language: "en",
-                path: "/apps/customer-service/frequently-asked-questions",
+                language: "se",
+                path: "/appar/kundtjanst/vanliga-fragor",
             });
             setFaq(response.catalogue);
         })();
@@ -25,8 +25,8 @@ function App() {
             const caller = apiClient.catalogueApi;
             const query = CONTACTS;
             const response = await caller(query, {
-                language: "en",
-                path: "/sites/plantagencom/contact-us",
+                language: "se",
+                path: "/sites/plantagencom/kontakta-oss",
             });
             setContacts(response.catalogue);
         })();
